@@ -1,4 +1,4 @@
-# Python assignment BNP
+# Python assignment
 
 
 
