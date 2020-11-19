@@ -1,14 +1,14 @@
 import pytest
 import importlib
 from xml.etree.ElementTree import ParseError
-bnptest = __import__('bnp-test')
+trade_agregator = __import__('trade_agregator')
 
 
 class Test():
 
     @pytest.fixture
     def _group_summary(self):
-        return bnptest.GroupSummary()
+        return trade_agregator.GroupSummary()
 
     @pytest.fixture
     def _filename(self):
@@ -43,7 +43,7 @@ class Test():
 
     def test_03_create_trade_from_elem(self, _filename, _group_summary):
         _trade = list(_group_summary.iter_elements(_filename))[0]
-        trade = bnptest.Trade(
+        trade = trade_agregator.Trade(
             _trade.get('CorrelationId'),
             _trade.get('Limit'),
             _trade.get('NumberOfTrades'),
@@ -54,7 +54,7 @@ class Test():
 
     def test_04_add_trade_to_summary(self, _filename, _group_summary):
         _trade = list(_group_summary.iter_elements(_filename))[0]
-        trade = bnptest.Trade(
+        trade = trade_agregator.Trade(
             _trade.get('CorrelationId'),
             _trade.get('Limit'),
             _trade.get('NumberOfTrades'),
@@ -82,4 +82,4 @@ class Test():
             _group_summary.process_file(_bad_xml)
         except ParseError as e:
             return
-        raise(e)
+            raise(e)
