@@ -30,21 +30,7 @@ Christophers-MacBook-Pro:rabo christopherbrown$ python3 -m venv trade_agregator
 change to the trade_agregator directory, unzip the files and activate venv
 ```
 Christophers-MacBook-Pro-2:testing-trade_agregator christopherbrown$ cd trade_agregator
-Christophers-MacBook-Pro-2:trade_agregator christopherbrown$ unzip ~/Documents/trade_agregator-submission/trade_agregator.zip
-
-Archive:  /Users/christopherbrown/Documents/trade_agregator-submission/trade_agregator.zip
-creating: src/
-inflating: src/requirements.txt
-creating: src/test/
-extracting: src/test/__init__.py
-inflating: src/test/test_01_unit.py
-inflating: src/README.md
-inflating: src/trade_agregator-test.py
-inflating: src/input.xml
-creating: __MACOSX/
-creating: __MACOSX/src/
-inflating: __MACOSX/src/._input.xml
-Christophers-MacBook-Pro-2:trade_agregator christopherbrown$
+...git clone...
 
 Christophers-MacBook-Pro-2:trade_agregator christopherbrown$ source bin/activate
 (trade_agregator) Christophers-MacBook-Pro-2:trade_agregator christopherbrown$
