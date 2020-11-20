@@ -27,7 +27,7 @@ Developed in Python3.8.1
 ```
 Christophers-MacBook-Pro:rabo christopherbrown$ python3 -m venv trade_agregator
 ```
-change to the trade_agregator directory, unzip the files and activate venv
+change to the trade_agregator directory, git clone and activate venv
 ```
 Christophers-MacBook-Pro-2:testing-trade_agregator christopherbrown$ cd trade_agregator
 ...git clone...
@@ -65,21 +65,7 @@ check results
 ## Tests
 ```
 trade_agregator2) Christophers-MacBook-Pro-2:src christopherbrown$ pytest -v
-=========================================================================== test session starts ===========================================================================
-platform darwin -- Python 3.8.1, pytest-5.3.5, py-1.8.1, pluggy-0.13.1 -- /Users/christopherbrown/Documents/trade_agregator2/bin/python3
-cachedir: .pytest_cache
-rootdir: /Users/christopherbrown/Documents/trade_agregator2/src
-collected 8 items                                                                                                                                                         
-
-test/test_01_unit.py::Test::test_01_iterfile PASSED                                                                                                                 [ 12%]
-test/test_01_unit.py::Test::test_02_iterfile_bad_name PASSED                                                                                                        [ 25%]
-test/test_01_unit.py::Test::test_03_create_trade_from_elem PASSED                                                                                                   [ 37%]
-test/test_01_unit.py::Test::test_04_add_trade_to_summary PASSED                                                                                                     [ 50%]
-test/test_01_unit.py::Test::test_05_aggregation PASSED                                                                                                              [ 62%]
-test/test_01_unit.py::Test::test_06_duplicate PASSED                                                                                                                [ 75%]
-test/test_01_unit.py::Test::test_07_too_many_trades PASSED                                                                                                          [ 87%]
-test/test_01_unit.py::Test::test_08_bad_xml PASSED                                                                                                                  [100%]
-
+... snip ...
 ============================================================================ 8 passed in 0.05s ============================================================================
 (trade_agregator2) Christophers-MacBook-Pro-2:src christopherbrown$ 
 ```
