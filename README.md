@@ -4,7 +4,7 @@
 
 ## Assignment
 ```
-The purpose of this exercise is to Accept or Reject trades **grouped by CorrelationID based** on a limit.
+Tool which Accepts or Rejects trades grouped by CorrelationID based on a limit.
 
 **Assumptions and edge cases:**
 
@@ -14,9 +14,9 @@ The purpose of this exercise is to Accept or Reject trades **grouped by Correlat
 -   Memory consumption and Big O notation are important. Your solution will be profiled withy several input files.
 ```
 
-I have also assumed that:
--	duplicate tradeId's should be skipped
--	finding a higher number of trades than expected should cause the group to be rejected
+additional:
+-	duplicate tradeId's are skipped
+-	finding a higher number of trades than expected causes the group to be rejected
 
 ## Solution
 Developed in Python3.8.1
