@@ -1,8 +1,6 @@
-# Python Challenge
+# Solution for Python Challenge
 
-
-
-## Challenge
+## trade-agregator
 ```
 Tool which Accepts or Rejects trades grouped by CorrelationID based on a limit.
 
