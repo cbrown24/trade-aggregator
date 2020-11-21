@@ -1,8 +1,8 @@
-# Python assignment
+# Python Challenge
 
 
 
-## Assignment
+## Challenge
 ```
 Tool which Accepts or Rejects trades grouped by CorrelationID based on a limit.
 
