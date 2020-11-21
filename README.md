@@ -1,4 +1,4 @@
-# Solution for Python Challenge
+# Solution for Python challenge
 
 ## trade-agregator
 ```
