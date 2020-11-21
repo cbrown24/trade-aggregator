@@ -9,7 +9,6 @@ Tool which Accepts or Rejects trades grouped by CorrelationID based on a limit.
 -   Groups that contain only 1 trade are to be expected (e.g. CorrelationID 222). This will be a simple case of an inline comparison and output.
 -   Incomplete Groups need to be outputted as Pending (e.g. CorrelationID 200 where the second trade never arrived).
 -   ID fields are strings, all other fields are integers (positive and negative).
--   Memory consumption and Big O notation are important. Your solution will be profiled withy several input files.
 ```
 
 additional:
